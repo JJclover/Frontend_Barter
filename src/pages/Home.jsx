@@ -1,7 +1,6 @@
 import React from "react";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
-import Map from "../components/Map";
 
 const Home = () => {
   return (
@@ -60,7 +59,7 @@ const Home = () => {
         <div className="w-3/4 p-4  p-5 rounded-lg mt-5 text-md h-96">
           <img
             src="map_image.jpeg"
-            alt="Image Map Results"
+            alt="Map Results"
             className="border-2 border-purple-950"
           />
         </div>
